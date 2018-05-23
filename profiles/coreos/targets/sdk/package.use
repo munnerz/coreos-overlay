@@ -28,3 +28,5 @@ sys-libs/ncurses static-libs
 sys-libs/zlib static-libs
 virtual/jpeg static-libs
 x11-libs/pixman static-libs
+
+sys-apps/policycoreutils semodule
