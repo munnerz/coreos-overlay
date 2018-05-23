@@ -11,6 +11,8 @@ if [[ "${PV}" == 9999 ]]; then
 	KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 else
 	CROS_WORKON_COMMIT="107ce54747f739dad4b56f9753852341bb759a4d"
+	# TODO: potentially use glevand version of bootengine here?
+	# CROS_WORKON_COMMIT="HEAD"
 	KEYWORDS="amd64 arm arm64 x86"
 fi
 
