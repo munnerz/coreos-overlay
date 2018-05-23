@@ -46,3 +46,10 @@ net-dns/bind-tools -seccomp
 
 # Gentoo's new hardened profile disables PIC, but open-vm-tools needs it
 app-emulation/open-vm-tools pic
+
+# Enable SELinux
+app-emulation/runc selinux
+coreos-base/coreos selinux
+sys-apps/coreutils selinux
+sys-apps/dbus selinux
+sys-apps/systemd selinux
